@@ -1,6 +1,7 @@
 from django.urls import path
-from .views import homeView
+from .views import homeView,eligibility_view
 
 urlpatterns = [
-    path('home/',homeView)
+    path('home/',homeView),
+    path('el',eligibility_view)
 ]
